@@ -4,7 +4,8 @@ const num = Number(x);
 if (isNaN(num)) {
     console.log("Missing size");
 } else {
-        for (let j = 0; j < num; j++){
-            console.log("x".repeat(num));
+        for (let i = 0; i < num; i++) {
+            console.log('X'.repeat(num));
         }
-    }
+}
+
